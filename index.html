@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recive COVID-19 Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <div class="top-header">
+                <div class="logo">
+                   <img src="src/Province_of_Ontario_logo.svg">
+                </div>
+                <div class="search-container">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">&#128270;</button>
+                </div>
+            </div>
+            <nav class="nav-header">
+                <div>
+                    <p>COVID-19</p> 
+                </div>
+                <ul>
+                    <li><a href="#">Vaccines</a></li>
+                    <li><a href="#">Data</a></li>
+                    <li><a href="#">Information</a></li>
+                </ul>
+            </nav>
+
+    </header>
+    <main> 
+            <div class="content">
+                <div class="bread-crumbs"><a href="#">Home</a> > <a href="#">COVID-19</a> > <a>Data</a></div>
+
+                <section>
+                    <h1>Covid-19 Cases on Canada</h1>
+                    <article id=lastestData>
+                        
+                    </article>
+                </section>
+                <div class="form">
+                        <h2>Get Updates on COVID-19</h2>
+                        <p>Sign up to receive updates about Coronavirus(COVID-19) data.</p>
+                        <form id="form">
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname" required="required"><br>
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" id="lname" name="lname" required="required"><br>
+                            <label for="emailadd">Whats your email address?</label><br>
+                            <input type="text" id="emailadd" name="emailadd" required="required" placeholder="yourname@domain.com">
+                            <input type="submit" value="Submit">
+                        </form> 
+                </div>
+            </div>
+    </main>
+    <footer>
+            <div >
+                <ul class="footer-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+    </footer>
+                <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+            <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+
+        <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAfP-r5okHgZ72jjyqa67u8rG9QNmXtFGA",
+            authDomain: "wddm-portfolio-test.firebaseapp.com",
+            projectId: "wddm-portfolio-test",
+            storageBucket: "wddm-portfolio-test.appspot.com",
+            messagingSenderId: "537334126174",
+            appId: "1:537334126174:web:0820101b5530568bf906cf"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        </script>
+        <script src="script.js"></script>
+</body>
+</html>

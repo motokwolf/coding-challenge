@@ -1,0 +1,174 @@
+body {
+    font-size: 1.05em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #EFEFEF;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: white; 
+   height:100%;
+}
+
+    a:hover {
+        color: #999;
+        background-color: #222;
+
+    }
+
+p {
+    padding-left: 1.4em;
+}
+
+    .data {
+        border-bottom: #999 solid 1px;
+        padding: 0.6em;
+    }
+
+    .data-container {
+        border-top: #999 solid 2px;
+        padding-top: 0.5em;
+    }
+
+
+
+article {
+    width: 40%;
+    min-width: 300px;
+}
+
+    .bold {
+        font-weight: bold;
+        
+    }
+
+    .right {
+        position: relative;
+        float: right;
+        text-decoration: underline dotted 1px #999;
+    }
+
+.form {
+    padding-top: 1.2em;
+}
+
+form {
+    padding-left: 1.4em;
+
+}
+
+form input {
+    padding: 0.7em;
+    border: #444 1px solid;
+    border-radius: 4px;
+    display: block;
+    width: 300px;
+}
+
+form label {
+    font-size: 0.9em;
+    display:inline-block;
+    padding-bottom: 0.4em;
+}
+
+form input[type=submit] {
+    font-size: 1em;
+    font-weight: bold;
+    width: 30%;
+    background-color: rgb(142, 190, 79);
+    margin-top: 2em;
+    border: none;
+}
+
+form input[type=submit]:hover {
+    background-color: rgb(74, 110, 27);
+}
+
+
+.top-header {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+    .search-container {
+        float: right;
+    }
+
+    .search-container input {
+        padding: 8px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+    }
+    
+    .search-container button {
+        float: right;
+        padding: 7px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+      }
+      
+     .search-container button:hover {
+        background: #BBB;
+      }
+
+.nav-header {
+    background-color: #444;
+    display: flex;
+    color: white;
+    padding: 0.2em 1em;
+}
+
+        .nav-header ul {
+            display: flex;
+        }
+
+        .nav-header li {
+            padding-left: 2em;
+        }
+
+footer {
+    background-color: #121212;
+    padding: 3rem 0;
+    position: relative;
+}
+
+        .footer-nav {
+            display: flex;
+        }
+
+                .footer-nav li {
+                    padding-left: 2em;
+                }
+
+.bread-crumbs {
+    font-size: 0.7em;
+    color: #121212;
+}
+
+        .bread-crumbs a {
+            color: #121212;
+        }
+
+        .bread-crumbs a:hover {
+            color: #999;
+        }
+
+.content {
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    width: 70%;
+}
+
